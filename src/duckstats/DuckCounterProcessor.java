@@ -10,7 +10,7 @@ import java.util.List;
  * This class imports the duck statistics from a file, prints the first 10 duck
  * statistics, and the first 10 duck statistics in descending order.
  *
- * @author Yu-Cheng Tu
+ * @author Wen YU
  */
 public class DuckCounterProcessor {
 
@@ -75,9 +75,7 @@ public class DuckCounterProcessor {
                     e.printStackTrace();
                 }
                 return duckData;
-
             }
-
 
 
 }
