@@ -9,7 +9,7 @@ import java.time.format.DateTimeParseException;
  * This class is used for storing the number of ducks and ducklings per pond.
  * You may modify this class as long as it will not break the supplied code.
  * 
- * @author Yu-Cheng Tu
+ * @author Wen 
  *
  */
 public class DuckCounter implements Comparable<DuckCounter> {
@@ -19,7 +19,7 @@ public class DuckCounter implements Comparable<DuckCounter> {
 
 	public DuckCounter(String date, int ducks, int ducklings) throws DuckCountException {
 		try {
-			DateTimeFormatter formatter = DateTimeFormatter.ofPattern("d/MM/yyyy");
+			DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 			this.date = LocalDate.parse(date, formatter);
 			this.ducks = ducks;
 			this.ducklings = this.ducklings;
